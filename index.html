@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Heroku | Design at Heroku</title>
+
+    <meta charset="utf-8">
+    <script src="http://html5slides.googlecode.com/svn/trunk/slides.js"></script>
+  </head>
+
+  <body style="display: none">
+    <style>
+      .slides.template-default > article:not(.nobackground):not(.biglogo) {
+        background-image: none;
+      }
+    </style>
+
+    <section class="slides layout-regular template-default">
+      <article class="nobackground">
+        <h1>Design at Heroku</h1>
+
+        <p>
+          Max Schoening<br>
+          April 19, 2012
+        </p>
+      </article>
+
+      <article class="nobackground">
+        <h2>What is Heroku?</h2>
+      </article>
+
+      <article class="nobackground">
+        <h3>Create a new web app</h3>
+
+<pre><code>$ heroku create cloudapp
+Created cloudapp.herokuapp.com | git@heroku.com:cloudapp.git</code></pre>
+
+        <h3>Push your code</h3>
+
+<pre><code>$ git push heroku master
+-----> Heroku receiving push
+...
+http://cloudapp.herokuapp.com deployed to Heroku</code></pre>
+      </article>
+
+      <article class="nobackground">
+        <h3>We'll make sure that it runs...</h3>
+
+        <pre><code>$ heroku run console "User.count" -a cloudapp
+1</code></pre>
+
+        <h3>...it runs...</h3>
+
+        <pre><code>$ heroku run console "User.count" -a cloudapp
+10000</code></pre>
+
+        <h3>...and it runs.</h3>
+
+        <pre><code>$ heroku run console "User.count" -a cloudapp
+1000000</code></pre>
+      </article>
+
+      <article class="nobackground">
+        <h2>Design runs deep at Heroku</h2>
+      </article>
+
+      <article class="fill nobackground">
+        <p>
+          <img class="centered" src="http://cl.ly/1U2L0I170U3k0w3E3W3K/heroku-create.png">
+        </p>
+      </article>
+
+      <article class="fill nobackground">
+        <p>
+          <img class="centered" src="http://cl.ly/212v1B1H2o0o3C1W3U3P/heroku-pricing.png">
+        </p>
+      </article>
+
+      <article class="fill nobackground">
+        <p>
+          <img class="centered" src="http://cl.ly/0e322X3z2p1t08192f40/heroku-login.png">
+        </p>
+      </article>
+
+      <article class="fill nobackground">
+        <p>
+          <img class="centered" src="http://cl.ly/3D0Y1P1L0G460Z1B0a0F/heroku-waza.png">
+        </p>
+      </article>
+
+      <article class="fill nobackground">
+        <p>
+          <img class="centered" src="http://farm8.staticflickr.com/7013/6694237927_e929788ae5_b.jpg">
+        </p>
+      </article>
+
+      <article class="nobackground">
+        <h2>Our design process</h2>
+      </article>
+
+      <!-- forces -->
+      <!-- sketches -->
+      <!-- original prototype -->
+      <!-- mobile prototype -->
+      <!-- hybrid prototype -->
+      <!-- hd prototype -->
+
+      <article class="fill nobackground">
+        <iframe src="https://status-beta.heroku.com"></iframe>
+      </article>
+
+      <article class="nobackground">
+        <h2>What's next?</h2>
+      </article>
+    </section>
+  </body>
+</html>
