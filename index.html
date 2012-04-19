@@ -25,12 +25,12 @@
       <article class="nobackground">
         <h3>Create a new web app</h3>
 
-<pre><code>$ heroku create cloudapp
+<pre class="noprettyprint"><code>$ heroku create cloudapp
 Created cloudapp.herokuapp.com | git@heroku.com:cloudapp.git</code></pre>
 
         <h3>Push your code</h3>
 
-<pre><code>$ git push heroku master
+<pre class="noprettyprint"><code>$ git push heroku master
 -----> Heroku receiving push
 ...
 http://cloudapp.herokuapp.com deployed to Heroku</code></pre>
@@ -39,17 +39,17 @@ http://cloudapp.herokuapp.com deployed to Heroku</code></pre>
       <article class="nobackground">
         <h3>We'll make sure that it runs...</h3>
 
-        <pre><code>$ heroku run console "User.count" -a cloudapp
+        <pre class="noprettyprint"><code>$ heroku run console "User.count" -a cloudapp
 1</code></pre>
 
         <h3>...it runs...</h3>
 
-        <pre><code>$ heroku run console "User.count" -a cloudapp
+        <pre class="noprettyprint"><code>$ heroku run console "User.count" -a cloudapp
 10000</code></pre>
 
         <h3>...and it runs.</h3>
 
-        <pre><code>$ heroku run console "User.count" -a cloudapp
+        <pre class="noprettyprint"><code>$ heroku run console "User.count" -a cloudapp
 1000000</code></pre>
       </article>
 
